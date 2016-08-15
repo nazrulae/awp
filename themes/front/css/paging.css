@@ -1,0 +1,54 @@
+/*div dengan nama paging*/
+div.paging{
+	padding: 0 0 0;
+
+	text-align:right; 
+	font-family:tahoma; 
+	font-size:12px;
+	color:#494949;
+	margin-right:15px;
+	clear:both;
+	
+}
+/*div paging untuk link*/
+div.paging a{
+	padding:2px 6px;
+	margin-right:2px; 
+	text-decoration:none;
+	background-color: #5ffd00;
+	background-position:bottom;
+	color:#fff;
+	border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+/*div paging ketika mouse berada diatas link*/
+div.paging a:hover {
+}
+
+/* div paging untuk halaman yang aktif saat itu*/
+div.paging span.current {
+	padding:2px 6px; 
+	margin-right:5px; 
+	background:#4bc203;
+	color:white;
+	border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+/*div paging untuk halaman yang tidak aktif */
+div.paging span.disabled {
+	padding:2px 6px; 
+	margin:2px;
+	background-color: #4dcb00;
+	color:red;
+	border:1px solid #b4b4b4;
+	 border-radius: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px; }
+}
+/*div paging unuk prev dan next */
+div.paging span.prevnext {
+	font-weight:bold;
+}

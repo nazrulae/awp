@@ -1,0 +1,82 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:#eee;
+}
+
+.box-side{
+  background-color:#f9f9f9;
+  border-radius:5px;
+  box-shadow:5px 5px 5px #ccc;
+  margin:5px;
+}
+
+.box{
+  padding:5px;
+  background-color:#f9f9f9;
+  border-radius:5px;
+  box-shadow:5px 5px 5px #ccc;
+  margin:5px;
+  min-height:450px;
+}
+
+.navbar{
+ 
+  box-shadow:5px 5px 5px #ccc;
+}
+
+
+.panel{
+	margin-bottom:0px;
+}
+
+.dropdown-menu {
+  left:100%;
+  top:0;
+}
+
+@media (max-width: 768px) {
+	.dropdown-menu {
+	  top:100%;
+	  left:0;
+	}
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 10px 20px;
+  clear: both;
+  font-weight: normal;
+  color:#ca424f;
+  line-height: 1.428571429;
+  white-space: nowrap;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #428bca;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #428bca;
+}
+
+.nav-pills li a{
+color:#428bca;
+}
+
+
+.nav .caret {
+  border-top-color: blue;
+  border-bottom-color: blue;
+}
+
+.nav a:hover .caret {
+  border-top-color: blue;
+  border-bottom-color:blue;
+}
